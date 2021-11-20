@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/full_panel.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_left_panel.xml" value="0.22" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_login_button.xml" value="0.16" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_login_panel.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_right_panel.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_about.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_home_screen.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_registor.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
