@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_A2/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_A2/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_A2/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/full_panel.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_left_panel.xml" value="0.22" />
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/drawable/shape_login_button.xml" value="0.16" />
@@ -14,6 +17,15 @@
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_home_screen.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
         <entry key="..\:/Users/bilal/AndroidStudioProjects/Fyp_b/app/src/main/res/layout/activity_registor.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/drawable/call_migh.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/drawable/email_migh.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/drawable/full_panel.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/drawable/shape_login_panel.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/bilal/Desktop/Fyp_b-master/Fyp_b-master/app/src/main/res/layout/activity_registor.xml" value="0.2" />
       </map>
     </option>
   </component>
