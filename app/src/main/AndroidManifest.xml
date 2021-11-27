@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Fyp_b">
         <activity
             android:name=".ContactActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".HomeActivity"/>
         <activity
             android:name=".AboutActivity"
             android:exported="true"

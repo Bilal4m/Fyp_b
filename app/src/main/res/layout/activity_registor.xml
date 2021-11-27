@@ -49,23 +49,27 @@
 
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:id="@+id/s_username"
             android:drawableRight="@drawable/ic_baseline_person_24"
             android:hint="Username"/>
         <EditText
 
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:id="@+id/s_email"
             android:drawableRight="@drawable/ic_baseline_email_24"
             android:hint="Email"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:id="@+id/s_password"
             android:inputType="textPassword"
             android:drawableRight="@drawable/ic_baseline_visibility_off_24"
             android:hint="Password" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:id="@+id/s_repassword"
             android:inputType="textPassword"
             android:drawableRight="@drawable/ic_baseline_visibility_off_24"
             android:hint="Confirm Password" />
@@ -81,6 +85,7 @@
         app:layout_constraintBottom_toBottomOf="@id/login_panel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/signup_s_btn"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:textColor="@color/white"
