@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         tv3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (getApplicationContext(),RegistorActivity.class);
+                Intent intent = new Intent (getApplicationContext(),InsertImage.class);
                 startActivity(intent);
             }
         });
