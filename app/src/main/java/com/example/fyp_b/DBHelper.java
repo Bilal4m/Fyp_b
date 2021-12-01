@@ -19,36 +19,14 @@ public class DBHelper extends SQLiteOpenHelper {
         super(context, "Login.db", null, 1);
     }
 
-    public void queryData(String sql){
-        SQLiteDatabase database = getWritableDatabase();
-        database.execSQL(sql);
-    }
-
-    public void insert_Data(String p_name, String p_desc, byte[] image){
-        SQLiteDatabase database = getWritableDatabase();
-        String sql = "INSERT INTO IMG VALUES (NULL, ? , ? , ?)";
 
 
-        SQLiteStatement statement = database.compileStatement(sql);
-        statement.clearBindings();
-
-        statement.bindString(1 , p_name);
-        statement.bindString(2, p_desc);
-        statement.bindBlob(3, image);
-
-        statement.executeInsert();
-
-    }
-
-    public Cursor getData (String sql){
-        SQLiteDatabase database = getWritableDatabase();
-        return database.rawQuery(sql, null);
-    }
 
 
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
         MyDB.execSQL("create Table users (username TEXT primary key, email TEXT, password TEXT )");
+        MyDB.execSQL("create table tableimage(image blob);");
 
         
 

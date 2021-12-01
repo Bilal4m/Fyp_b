@@ -1,77 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgf"
-    tools:context=".InsertImage">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/lay1"
-    android:orientation="vertical">
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:id="@+id/img"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_launcher"/>
+    tools:context=".MainActivity" >
 
-
-    <EditText
-        android:id="@+id/place_name"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/avatar"
-        android:layout_marginTop="20dp"
-        android:hint="Place Name" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/place_name"
-        android:layout_marginTop="10dp"
-        android:hint="Place Description"
-        android:id="@+id/place_description"/>
-</LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/lay1">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
         <Button
-            android:layout_width="125dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:id="@+id/choose"
-            android:background="@drawable/shape_login_button"
-            android:text="Choose"/>
+            android:text="Select Image"
+            android:id="@+id/btnSelect"
+            android:onClick="selectImage"
+            android:layout_alignTop="@+id/btnUpload"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_below="@+id/btnUpload"
+            android:layout_centerHorizontal="true" />
         <Button
-            android:layout_width="125dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:id="@+id/add"
-            android:background="@drawable/shape_login_button"
-            android:text="Add"/>
+            android:text="Upload  Image"
+            android:id="@+id/btnUpload"
+            android:onClick="uploadImage"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
         <Button
-            android:layout_width="125dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:id="@+id/list"
-            android:background="@drawable/shape_login_button"
-            android:text="List"/>
-    </LinearLayout>
+            android:text="Retrieve Image"
+            android:id="@+id/button"
+            android:onClick="retImage"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_marginTop="300dp" />
+    </RelativeLayout>
 
-
-
-
-
-
-
-</RelativeLayout>
+</ScrollView>
