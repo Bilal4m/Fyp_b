@@ -25,24 +25,24 @@
     <RelativeLayout
         app:layout_constraintTop_toBottomOf="@id/Header"
         android:layout_width="220dp"
-        android:layout_height="575dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintRight_toRightOf="parent"
         android:background="@drawable/shape_right_panel"
         tools:ignore="MissingConstraints" />
     <LinearLayout
         android:id="@+id/login_panel"
         app:layout_constraintTop_toBottomOf="@id/Header"
-        android:layout_marginTop="90dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="0dp"
         android:layout_width="match_parent"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:paddingTop="70dp"
+        android:paddingTop="40dp"
         android:paddingRight="50dp"
         android:paddingLeft="50dp"
         android:background="@drawable/shape_login_panel"
-        android:layout_height="450dp"
+        android:layout_height="400dp"
         android:orientation="vertical">
 
         <EditText
@@ -101,8 +101,8 @@
         android:textColor="@color/purple_500"
         android:textSize="25sp"
         app:layout_constraintTop_toTopOf="@id/login_panel"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="-45dp"/>
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-40dp"/>
     <TextView
         android:id="@+id/signup_p_login_text"
         android:layout_width="match_parent"
@@ -114,8 +114,8 @@
         android:textSize="25sp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/login_panel"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="-45dp"/>
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-40dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn;
     EditText username , password , email;
-    TextView tv1,tv2;
+    TextView tv1,tv2,tv3;
     DBHelper DB ;
 
     @Override
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn = (Button) findViewById(R.id.login_p_login_btn);
         tv1 = (TextView) findViewById(R.id.login_p_signup_panel);
         tv2 = (TextView) findViewById(R.id.login_p_signup_bottom);
+        tv3 = (TextView) findViewById(R.id.login_p_signup_bottom);
 
         username = (EditText) findViewById(R.id.l_username);
         password = (EditText) findViewById(R.id.l_password);
@@ -66,9 +67,18 @@ public class MainActivity extends AppCompatActivity {
         tv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent (getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        tv3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent intent = new Intent (getApplicationContext(),RegistorActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }
