@@ -5,7 +5,7 @@
     android:id="@+id/email"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgf"
+    android:background="@drawable/migh"
     tools:context=".AboutActivity">
 
 
@@ -29,7 +29,7 @@
         android:fontFamily="@font/aladin"
         android:gravity="center"
         android:text="CONTACT US"
-        android:textColor="#F8F8F8"
+        android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,8 @@
         android:fontFamily="@font/baloo_thambi"
         android:gravity="center"
         android:text="03156438000"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.45"
@@ -61,7 +62,7 @@
         android:fontFamily="@font/baloo_thambi"
         android:gravity="center"
         android:text="migh@gmail.com"
-        android:textColor="#FFFEFC"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"

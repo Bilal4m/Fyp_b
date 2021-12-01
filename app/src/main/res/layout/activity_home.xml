@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgf"
+    android:background="@drawable/migh"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -12,12 +12,13 @@
         android:layout_height="180dp"
         android:id="@+id/Header"
         tools:ignore="MissingConstraints">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/logo2"/>
+            android:padding="10dp"
+            android:src="@drawable/logo2" />
 
     </RelativeLayout>
 
@@ -41,7 +42,7 @@
             android:layout_height="60dp"
             android:background="@drawable/shape_login_button"
             android:text="About Us"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="@id/login_panel"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -53,7 +54,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/shape_login_button"
             android:text="Contact Us"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="@id/login_panel"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -65,7 +66,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/shape_login_button"
             android:text="Insert Images"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="@id/login_panel"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

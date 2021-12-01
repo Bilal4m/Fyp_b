@@ -5,7 +5,7 @@
     android:id="@+id/email"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgf"
+    android:background="@drawable/migh"
     tools:context=".AboutActivity">
 
 
@@ -30,7 +30,7 @@
         android:fontFamily="@font/aladin"
         android:gravity="center"
         android:text="ABOUT US"
-        android:textColor="#F8F8F8"
+        android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/about"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,11 +46,12 @@
         android:fontFamily="@font/baloo_thambi"
         android:gravity="center"
         android:text="03156438000"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/toolbar"
         app:layout_constraintEnd_toStartOf="@+id/about"
         app:layout_constraintHorizontal_bias="0.393"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/call_migh" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,7 +62,7 @@
         android:fontFamily="@font/baloo_thambi"
         android:gravity="center"
         android:text="migh@gmail.com"
-        android:textColor="#FFFEFC"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/about"
         app:layout_constraintHorizontal_bias="0.684"
@@ -78,7 +79,7 @@
         android:fontFamily="@font/baloo_thambi"
         android:gravity="center"
         android:text="The MiGH story begins in May 2021 Arsl , Harry and Bilal work on this idea in superior University. Friends made the App themselves. the brand has contributed heavily towards the development of society as a whole. It is responsible for creating job opportunities for the youth of the country both directly as well as indirectly "
-        android:textColor="#FFFEFC"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent" />
 
